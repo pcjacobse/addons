@@ -3,7 +3,7 @@ name: iSponsorBlockTV add-on
 version: "2.1.0"
 slug: isponsorblocktv
 description: SponsorBlock client for all YouTube TV clients.
-url: "https://github.com/bertybuttface/addons/tree/main/isponsorblocktv"
+url: "https://github.com/pcjacobse/addons/tree/main/isponsorblocktv"
 arch:
   - aarch64
   - amd64
@@ -33,5 +33,5 @@ schema:
   skip_count_tracking: "bool"
   mute_ads: "bool"
   skip_ads: "bool"
-image: "ghcr.io/bertybuttface/{arch}-addon-isponsorblocktv"
+image: "docker.io/pcjacobse/{arch}-addon-isponsorblocktv"
 host_network: true
