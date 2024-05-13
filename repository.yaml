@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: "Bertybuttface's Home Assistant add-on repository"
-url: 'https://github.com/bertybuttface/addons'
-maintainer: BertyButtface <buttface@example.com>
+name: "Paul's fork of Bertybuttface's Home Assistant add-on repository"
+url: 'https://github.com/pcjacobse/addons'
+maintainer: Paul, BertyButtface <buttface@example.com>
