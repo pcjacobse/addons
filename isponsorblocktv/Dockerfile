@@ -12,7 +12,8 @@ RUN apk add --no-cache git
 
 WORKDIR /app
 
-RUN git clone https://github.com/dmunozv04/iSponsorBlockTV /repo
+# RUN git clone https://github.com/dmunozv04/iSponsorBlockTV /repo
+RUN git clone https://github.com/spy14/iSponsorBlockTV /repo
 RUN cp -r /repo/src/* .
 
 RUN python3 -m compileall -b -f . && \
